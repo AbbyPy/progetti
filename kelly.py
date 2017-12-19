@@ -4,7 +4,7 @@ import time
 from pprint import pprint
 
 
-bot = telepot.Bot("500381074:AAERSP1T-nSOtXVt0UuMJx4iwZPgH3AWagg")
+bot = telepot.Bot("IL TUO TOKEN")
 
 """
 STILL WORKING
@@ -93,11 +93,13 @@ def risposta(chat_id, x):
     elif x == "canta":
         bot.sendMessage(chat_id, "si")
         bot.sendMessage(chat_id, "so anche cantare xD")
-        bot.sendVoice(chat_id, (open('file/canta.m4a', 'rb')))
+        bot.sendVoice(chat_id, (open('PERCOSO', 'rb')))
 
-    #elif x == "foto":
-        #bot.sendMessage(chat_id, "sono un cagnolino bellissimo")
-        #bot.sendPhoto(chat_id, (open('file/foto.jpg', 'rb')))
+    """STILL WORKING
+    elif x == "foto":
+        bot.sendMessage(chat_id, "sono un cagnolino bellissimo")
+        bot.sendPhoto(chat_id, (open('file/foto.jpg', 'rb')))
+    """
         
 
     else:
