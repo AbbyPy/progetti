@@ -23,7 +23,7 @@ def fig_quad(radice_quad):
 def n_triang(n):
     x = (math.sqrt(8*n + 1) - 1) / 2
     if x == int(x):
-        print "Il n è TRIANGOLARE", int(x)
+        print "Il n Ã¨ TRIANGOLARE", int(x)
         while x > 0:
             print ['x']*int(x)
             x = x-1
@@ -51,7 +51,7 @@ while True:
     #PARI
     if n%2 == 0:
         print "------------------"
-        print "Il n è il PARI", (n/2)
+        print "Il n Ã¨ il PARI", (n/2)
         figp_r1 = ['x']*(n/2)
         figp_r2 = figp_r1[:]
         print figp_r1
@@ -62,7 +62,7 @@ while True:
     #DISPARI
     if n%2 != 0:
         print "------------------"
-        print "Il n è il DISPARI", ((n/2)+1)
+        print "Il n Ã¨ il DISPARI", ((n/2)+1)
         figd_r1 = ['x']*(n/2)
         figd_r2 = ['x']*((n/2)+1)
         print figd_r1
@@ -70,7 +70,7 @@ while True:
         print "------------------"
         print
         print "------------------"
-        print "Il n è lo GNOMONE", ((n/2)+1)
+        print "Il n Ã¨ lo GNOMONE", ((n/2)+1)
         fig_gnom(n)
         print "------------------"
         print
@@ -80,7 +80,7 @@ while True:
     radice_quad = math.sqrt(n)
     if radice_quad == int(radice_quad):
         print "------------------"
-        print "Il n è il QUADRATO", int(radice_quad)
+        print "Il n Ã¨ il QUADRATO", int(radice_quad)
         fig_quad(radice_quad)
         print "------------------"
         print
