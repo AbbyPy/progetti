@@ -8,7 +8,6 @@ class IsntVectorError(TypeError):
 class NotSameDegreeError(TypeError):
     pass
 
-
 class Vector:
 
     def __init__(self, comp):
